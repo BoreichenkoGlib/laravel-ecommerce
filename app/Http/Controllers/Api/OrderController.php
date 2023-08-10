@@ -19,9 +19,9 @@ class OrderController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return Response
+     * @return \Illuminate\Http\Resources\Json\AnonymousResourceCollection
      */
-    public function index(): Response
+    public function index(): \Illuminate\Http\Resources\Json\AnonymousResourceCollection
     {
         $perPage = request('per_page', 10);
         $search = request('search', '');
