@@ -5,6 +5,7 @@ Technologies used in this project:
 
 ### Live preview
 Website: https://laravuecommerce.online
+
 Admin Panel: https://admin.laravuecommerce.online
 ```
 admin@example.com
